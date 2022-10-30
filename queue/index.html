@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <title>PlaceHolder</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="text/javascript" src="./Home.js"></script>
+</head>
+
+<body class="body">
+  <div class="centre">
+  <img src="background.jpg" alt="3v3">
+  </div>
+   <div class="container-fluid">
+    <div class="row">
+      <form action="save.php" method="POST">
+        <div class="col-md-4 col-sm-6 col-xs-6 "><p class="Enter">Enter Details</p><br>
+          <input type="text" placeholder="URL" name="URL" class="name" required>
+          <input type="text" placeholder="Name" name="u_name" class="name" required>
+          <!--input type="text" placeholder="Team2" name="Team2" class="name" required-->
+          <br><br>
+          <button id="update" class="Fixture" type="submit" name="update">Update</button>
+        </div>
+      </form>
+      
+      <div class="col-md-4 col-sm-6 col-xs-6 fixtures"><p class = "Enter">Top Five</p><br>
+        <label for="Fixture1" id="Fixture1">Link1</label><br>
+        <label for="Fixture2" id="Fixture2">Link2</label><br>
+        <label for="Fixture3" id="Fixture3">Link3</label><br>
+        <label for="Fixture4" id="Fixture4">Link4</label><br>
+        <label for="Fixture5" id="Fixture5">Link5</label><br>
+
+        <button class="Update" onclick="update_results(document.getElementsByName('Score1'),document.getElementsByName('Score2'))" type="submit" name="Update">Update</button>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-6"><p class="Enter">Waitlist Number</p><br>
+        <label for="Team1" id="Result1" class="Result">0</label>   
+      </div>
+      </div>
+      </div>
+
+</body>
+</html>
