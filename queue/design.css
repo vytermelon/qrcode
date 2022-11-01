@@ -3,9 +3,9 @@ html {
 }
 #list{
   position: absolute;
-  height: 50%;
-  width: 35%;
-  top: 40%;
+  height: 54%;
+  width: 40%;
+  top: 20%;
   right: 10%;
 background: linear-gradient(#141e30, #2e4c6e);
     display: grid;
@@ -35,7 +35,7 @@ button {
 
 .login-box {
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 20%;
   width: 30%;
   padding: 3%;
@@ -199,8 +199,8 @@ body{
   display: inline-flex;
   width: 10%;
   height: 10%;
-  top: 10%;
-  right: 30%;
+  bottom: 10%;
+  right: 25%;
   margin: 0 15px;
   perspective: 1000px;
 }
